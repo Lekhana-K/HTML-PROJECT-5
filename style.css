@@ -1,0 +1,125 @@
+/* .emoji{
+    border: 3px solid rgb(53, 44, 44);
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+    margin-left: 30px;
+    padding: 50px;
+    border-radius: 60px 60px 60px 60px;
+    box-shadow: 10px 10px 10px 10px salmon;
+}
+.eyes{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-color: rgb(21, 24, 23) transparent black transparent ;
+    border-radius: 100% 6px 3px 4px 5px;
+
+} */
+.face{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(240, 240, 34);
+    border-radius: 100%;
+    position: relative;
+    
+}
+.eye1{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(7, 6, 6);
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px rgb(68, 119, 229);
+    margin-left: 50px;
+    position: absolute;
+    top: 60px;
+    left: 1px;
+     
+}
+    
+
+.round1{
+
+    height: 10px;
+    width: 10px;
+    background-color: rgb(250, 253, 253);
+    border-radius: 100%;
+    position: absolute;
+    left: 55px;
+    top: 66px;
+
+}
+   
+.eye2{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(4, 4, 4);
+    box-shadow: 2px 2px 2px 2px  rgb(68, 119, 229);
+    border-radius: 100%;
+    margin-left: 50px;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    
+}
+.round2{
+
+    height: 10px;
+    width: 10px;
+    background-color: rgb(253, 255, 255);
+    border-radius: 100%;
+    position: absolute;
+    right: 65px;
+    top: 65px;
+}
+.nose{
+    height: 20px;
+    width: 10px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 100px;
+}
+.mouth{
+    height: 40px;
+    width: 80px;
+    background-color: brown;
+    border-radius: 10px 10px 100px 100px;
+    position: absolute;
+    margin-top: 120px;
+    left: 60px;
+    overflow: hidden;
+
+}
+.tongue{
+    height: 60px;
+    width: 50px;
+    background-color: rgb(231, 159, 133);
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.blush1{
+    height: 1px;
+    width: 1px;
+    box-shadow: 15px 15px 15px 15px rgb(198, 114, 114);
+    border-radius: 100%;
+    position: absolute;
+    right: 170px;
+    margin-top: 100px;
+
+}
+.blush2{
+    height: 1px;
+    width: 1px;
+    box-shadow: 15px 15px 15px 15px rgb(198, 114, 114);
+    border-radius: 100%;
+    position: absolute;
+    left: 150px;
+    margin-top: 100px;
+}
+.emoji:hover{
+    transform: rotate(180deg);
+}
+    
